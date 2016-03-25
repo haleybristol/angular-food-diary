@@ -1,0 +1,21 @@
+{
+  "name": "angular2-skeleton-app",
+  "description": "",
+  "main": "",
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "https://github.com/haleybristol/foodDiaryAngular",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  },
+  "authors": [
+    "haley bristol <hebristol@gmail.com>"
+  ]
+}
