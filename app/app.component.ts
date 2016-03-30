@@ -6,9 +6,10 @@ import { FoodListComponent } from './food-list.component';
 
 @Component ({
   selector: 'my-app',
+  directives: [FoodListComponent], 
   template: `
     <div class="jumbotron">
-    <h1>Food Diary<h1>
+    <h1>Food Diary</h1>
     </div>
     <div class="container">
     <h1>Foods Consumed Today:</h1>

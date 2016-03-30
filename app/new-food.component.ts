@@ -10,7 +10,7 @@ import { Food } from './food.model';
       <input placeholder="Calories" class="col-sm-8 input-lg food-form" #newFood />
       <input placeholder="Details" class="col-sm-8 input-lg food-form" #newDetails/>
 
-      <button class="add-food" (click)="addFood(newName, newCalories, newDetails)" class="btn-default" btn-lg add-button">Add</button>
+      <button class="add-food" (click)="addFood(newName, newCalories, newDetails)">Add</button>
     </div>
   `
 })

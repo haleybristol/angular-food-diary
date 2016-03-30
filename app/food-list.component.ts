@@ -12,16 +12,17 @@ import { EditFoodComponent } from './edit-food.component';
   directives: [FoodComponent, NewFoodComponent, EditFoodComponent],
   template: `
   <div class="container-edit">
-    <food-display *ngFor="currentFood of foodList"
+    <food-display *ngFor="#currentFood of foodList"
       (click) = "foodClicked(currentFood)"
       [class.selected]="currentFood === selectedFood"
-      [meal]="currentMeal">
+      [food]="currentFood">
     </food-display>
   </div>
   <div class="container food-edit">
-    <edit-food *ngIf="selectedFood" [food]="selecteFood">
+    <edit-food *ngIf="selectedFood" [food]="selectedFood">
     </edit-food>
   </div>
+  <div>
     <new-food (onSubmitNewFood)="createFood($event)"></new-food>
   </div>
   `
