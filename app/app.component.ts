@@ -24,10 +24,10 @@ export class AppComponent {
   public foods: Food[];
   constructor() {
     this.foods = [
-      new Food("Cocoa Puffs", "Breakfast", "250"),
-      new Food("Apple", "Snack", "90"),
-      new Food("Kale Salad", "Lunch", "400"),
-      new Food("Spaghetti and meatballs", "Dinner", "600"),
+      new Food("Cocoa Puffs", 250, "Breakfast"),
+      new Food("Apple", 90, "Snack"),
+      new Food("Kale Salad", 400, "Lunch"),
+      new Food("Spaghetti and meatballs", 600, "Dinner"),
     ];
   }
   // foodWasSelected(clickedFood: Food): void {

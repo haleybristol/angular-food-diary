@@ -6,8 +6,8 @@ import { Food } from './food.model';
   inputs: ['food'],
   template: `
     <div class="container details">
-      <h1 class="selectedFood">Selected Food</h1>
-      <h3>{{food.name}} - "{{food.details}}"</h3>
+      <h3>{{food.name}}</h3>
+      <h3>Notes: {{food.details}}</h3>
       <h4>Calories: {{food.calories}}</h4>
     </div>
     <h3>Edit Items:</h3>

@@ -1,0 +1,12 @@
+.jumbotron {
+  text-align: center;
+  background-image: url("../../baby_burgers.png");
+  background-color: white;
+  color: black;
+  text-shadow: 000 1px 1px 1px;
+}
+
+.add-food {
+
+  width: 100px;
+}
