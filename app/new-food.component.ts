@@ -3,7 +3,7 @@ import { Food } from './food.model';
 
 @Component ({
   selector: 'new-food',
-  outputs: ['onSubmitNewfood'],
+  outputs: ['onSubmitNewFood'],
   template: `
     <div class="new-food-form">
       <input placeholder="Food Name" class="col-sm-8 input-lg food-form" #newName/>

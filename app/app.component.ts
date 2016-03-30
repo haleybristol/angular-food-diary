@@ -14,8 +14,7 @@ import { FoodListComponent } from './food-list.component';
     <div class="container">
     <h1>Foods Consumed Today:</h1>
       <food-list
-      [foodList]="foods"
-      (onFoodSelect)="foodWasSelected($event)">
+      [foodList]="foods">
       </food-list>
     </div>
   `
@@ -31,6 +30,7 @@ export class AppComponent {
       new Food("Spaghetti and meatballs", "Dinner", "600"),
     ];
   }
-  foodWasSelected(clickedFood: Food): void {
-  }
+  // foodWasSelected(clickedFood: Food): void {
+  //   console.log(Food);
+  // }
 }

@@ -19,8 +19,8 @@ import { EditFoodComponent } from './edit-food.component';
     </food-display>
   </div>
   <div class="container food-edit">
-    <edit-food *ngIf="selectedFood" [food]="selectedFood">
-    </edit-food>
+    <edit-food-details *ngIf="selectedFood" [food]="selectedFood">
+    </edit-food-details>
   </div>
   <div>
     <new-food (onSubmitNewFood)="createFood($event)"></new-food>
@@ -33,6 +33,7 @@ export class FoodListComponent {
   public foodList: Food[];
   public onFoodSelect: EventEmitter<Food>;
   public selectedFood: Food;
+
   constructor(){
     this.onFoodSelect = new EventEmitter();
   }
