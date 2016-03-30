@@ -33,7 +33,6 @@ export class FoodListComponent {
   public foodList: Food[];
   public onFoodSelect: EventEmitter<Food>;
   public selectedFood: Food;
-
   constructor(){
     this.onFoodSelect = new EventEmitter();
   }

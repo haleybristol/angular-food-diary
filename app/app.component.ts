@@ -6,7 +6,7 @@ import { FoodListComponent } from './food-list.component';
 
 @Component ({
   selector: 'my-app',
-  directives: [FoodListComponent], 
+  directives: [FoodListComponent],
   template: `
     <div class="jumbotron">
     <h1>Food Diary</h1>
@@ -14,7 +14,7 @@ import { FoodListComponent } from './food-list.component';
     <div class="container">
     <h1>Foods Consumed Today:</h1>
       <food-list
-        [foodList]="foods"
+      [foodList]="foods"
       (onFoodSelect)="foodWasSelected($event)">
       </food-list>
     </div>

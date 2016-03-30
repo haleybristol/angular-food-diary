@@ -33,17 +33,6 @@
     "gulp-util": "^3.0.7",
     "lite-server": "^2.1.0",
     "typescript": "^1.8.2",
-    "typings": "^0.6.10"
-  },
-  "main": "gulpfile.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/haleybristol/foodDiaryAngular.git"
-  },
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/haleybristol/foodDiaryAngular/issues"
-  },
-  "homepage": "https://github.com/haleybristol/foodDiaryAngular#readme",
-  "description": ""
+    "typings": "^0.6.8"
+  }
 }
